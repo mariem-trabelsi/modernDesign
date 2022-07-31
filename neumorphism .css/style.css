@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    background:#dde1e7;
+}
+.neumorphism_1{
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+    background:#dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104,121,.288);
+}
+.neumorphism_2{
+    margin:15px;
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+    background:#dde1e7;
+    box-shadow: inset -3px -3px 7px #ffffff73,inset 3px 3px 5px rgba(94, 104,121,.288);
+}
+.neumorphism_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background:#dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104,121,.288);
+    position: relative;
+}
+.neumorphism_3:after{
+    content: '';
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset -3px -3px 7px #ffffff73,inset 3px 3px 5px rgba(94, 104,121,.288);
+}
+.neumorphism_4{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background:#dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104,121,.288);
+    position: relative;
+}
+.neumorphism_4:after{
+    content: "";
+    height: 80%;
+    width: 80%;
+    background-color: rgb(91, 109, 103);
+    border-radius: 50%;
+    position: absolute;
+
+}
